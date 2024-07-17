@@ -27,7 +27,7 @@ body {
     color: var(--text-color);
 }
 
-/* HEADER & NAVBAR STYLES */
+/* HEADER & NAVBAR STYLES
 
 .header {
     position: fixed;
@@ -78,7 +78,7 @@ body {
     font-size: 3.6rem;
     color: var(--main-color);
     display: none;
-}
+} */
 
 
 /* HOME STYLES */
@@ -303,7 +303,7 @@ span {
 }
 
 
-/* EDUCATION STYLES */
+/* EDUCATION STYLES
 
 .heading {
     font-size: 8rem;
@@ -419,7 +419,7 @@ span {
     background-color: var(--bg-color);
     border-radius: 10px;
     width: 50px;
-}
+} */
 
 /* PROJECT STYLES */
 
@@ -519,7 +519,7 @@ span {
     margin: auto;
 }
 
-/* TESTIMOIALS SECTION */
+/* TESTIMOIALS SECTION
 .testimonials {
     background: var(--second-bg-color);
 }
@@ -586,9 +586,9 @@ span {
 #star {
     color: gold;
     font-size: 2rem;
-}
+} */
 
-/* CONTACT SECTION */
+/* CONTACT SECTION
 .contact {
     background-color: var(--bg-color);
 }
@@ -628,9 +628,9 @@ span {
 
 .contact form .btn {
     margin-top: 2rem;
-}
+} */
 
-/* FOOTER SECTION */
+/* FOOTER SECTION
 .footer {
     position: relative;
     bottom: 0;
@@ -698,9 +698,9 @@ span {
     text-align: center;
     font-size: 16px;
     color: white;
-}
+} */
 
-@media(max-width:1285px) {
+/* @media(max-width:1285px) {
     html {
         font-size: 50%;
     }
@@ -814,4 +814,4 @@ span {
         grid-template-columns: repeat(1,1fr);
     }
 
-}
+} */

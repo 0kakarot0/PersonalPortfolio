@@ -3,7 +3,6 @@ import React from "react";
 import "./style.css";
 import myprofile from "../assets/myproflie.jpeg"; // Correct path to the image
 
-
 function Home(){
     return(
         // HOME SECTION

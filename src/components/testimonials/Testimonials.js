@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./style.css";
-import imageavatar2 from "../assets/imageavatar2.png"; 
-import imageavatar from "../assets/imageavatar.png"; 
-import imageavatar5 from "../assets/imageavatar5.png"; 
-import imageavatar4 from "../assets/imageavatar4.png"; 
+import "./Testimonials.css";
+import imageavatar2 from "../../assets/imageavatar2.png"; 
+import imageavatar from "../../assets/imageavatar.png"; 
+import imageavatar5 from "../../assets/imageavatar5.png"; 
+import imageavatar4 from "../../assets/imageavatar4.png"; 
 
 
 function Testimonials(){
