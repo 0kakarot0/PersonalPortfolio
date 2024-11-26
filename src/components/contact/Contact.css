@@ -1,11 +1,14 @@
 /* CONTACT SECTION */
 .contact {
     background-color: var(--bg-color);
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
 }
 
 .contact h2 {
     margin-bottom: 3rem;
-    color: white;
+    color: var(--text-color);
+    
 }
 
 .contact form {

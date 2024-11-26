@@ -16,8 +16,8 @@ function Home(){
                 </p>
     
                 <div class="social-icons">
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/ahtishamilyas/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/0kakarot0"><i class='bx bxl-github'></i></a>
                     <a href="#"><i class='bx bxl-instagram-alt'></i></a>
                     <a href="#"><i class='bx bxl-twitter'></i></a>
                 </div>

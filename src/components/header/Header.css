@@ -50,3 +50,15 @@
     color: var(--main-color);
     display: none;
 }
+.theme-toggle-btn {
+    background: var(--main-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .theme-toggle-btn:hover {
+    opacity: 0.9;
+  }

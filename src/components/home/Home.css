@@ -1,3 +1,24 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: white;
+    --main-color: #00ffee;
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+
 /* HOME STYLES */
 
 section {
@@ -85,7 +106,7 @@ span {
 }
 
 .social-icons a:hover {
-    color: var(--text-color);
+    color: var(--bg-color);
     transform: scale(1.3)translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
@@ -98,7 +119,7 @@ span {
     box-shadow: 0 0 25px var(--main-color);
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: black;
+    color: var(--bg-color);
     border: 2px solid transparent;
     letter-spacing: 0.1rem;
     font-weight: 600;
@@ -117,7 +138,7 @@ span {
 }
 
 .btn-group a:nth-of-type(2) {
-    background-color: black;
+    background-color: var(--bg-color);
     color: var(--main-color);
     border: 2px solid var(--main-color);
     box-shadow: 0 0 25px transparent;
@@ -125,7 +146,7 @@ span {
 
 .btn-group a:nth-of-type(2):hover {
     background-color: var(--main-color);
-    color: black;
+    color: var(--bg-color);
     box-shadow: 0 0 25px var(--main-color);
 }
 
@@ -216,4 +237,5 @@ span {
     85% {
         width: calc(100% + 8px);
     }
+
 }
