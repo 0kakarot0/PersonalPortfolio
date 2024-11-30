@@ -1,4 +1,4 @@
-* FOOTER SECTION */
+/* FOOTER SECTION */
 .footer {
     position: relative;
     bottom: 0;
@@ -60,7 +60,7 @@
 
 .footer ul li {
     display: inline-block;
-    padding: 0, 15px;
+    padding: 0px, 15px;
 }
 
 .footer .copyright {
