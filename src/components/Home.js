@@ -33,10 +33,10 @@ function Home() {
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 animate-slide-up" style={{ animationDelay: "0.4s" }}>
             <Button size="lg" onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}>
-              Hire <ArrowRight className="ml-2 w-4 h-4" />
+              View Projects <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
             <Button variant="outline" size="lg" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
-              Contact <Mail className="ml-2 w-4 h-4" />
+              Contact Me <Mail className="ml-2 w-4 h-4" />
             </Button>
           </div>
         </div>
