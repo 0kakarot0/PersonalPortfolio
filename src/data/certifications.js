@@ -1,6 +1,7 @@
 export const certificationsData = [
   {
     id: 1,
+    status: "featured",
     title: "AI for Brainstorming and Planning",
     issuer: "Google",
     date: "Mar 2026",
@@ -10,6 +11,7 @@ export const certificationsData = [
   },
   {
     id: 2,
+    status: "in-progress",
     title: "AI Fundamentals",
     issuer: "Google",
     date: "Mar 2026",
@@ -18,6 +20,7 @@ export const certificationsData = [
   },
   {
     id: 3,
+    status: "featured",
     title: "Crash Course on Python",
     issuer: "Google",
     date: "Feb 2026",
@@ -49,6 +52,7 @@ export const certificationsData = [
   },
   {
     id: 7,
+    status: "featured",
     title: "JMeter: Performance and Load Testing",
     issuer: "LinkedIn",
     date: "Oct 2025",
