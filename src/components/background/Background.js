@@ -6,8 +6,8 @@ function Background() {
         // <!-- 
         // EDUCATION SECTION
         // -->
-        <section class="education" id="education">
-            <h2 class="heading">Education & Career</h2>
+        <section className="education py-20 bg-secondary/30" id="education">
+            <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">Education & Career</h2>
             <div class="timeline-items">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
