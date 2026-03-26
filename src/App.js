@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Background from './components/background/Background';
 import Services from './components/services/Services';
 import Testimonials from './components/testimonials/Testimonials';
-// import About from './components/About';
+import About from './components/about/About';
 import Skills from './components/skills/Skills';
 
 import Projects from './components/projects/Projects';
@@ -18,15 +18,13 @@ function App() {
       <Header />
       <Home />
       <Background />
+      <About />
       <Skills/>
       <Projects />
       <Services />
       <Testimonials />
-
-      {/* <About /> */}
       <Contact />
       <Footer />
-
     </div>
   );
 }
