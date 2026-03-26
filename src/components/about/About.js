@@ -6,19 +6,19 @@ import myprofile from "../../assets/myproflie.jpeg";
 function About() {
   return (
     <Section id="about" className="bg-secondary/30">
-      <div className="grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative">
+      <div className="grid lg:grid-cols-12 gap-12 items-center">
+        <div className="lg:col-span-4 relative max-w-sm mx-auto w-full">
           <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-2xl opacity-20" />
-          <Card className="relative aspect-square flex items-center justify-center bg-secondary/50 border-white/5 overflow-hidden p-0">
+          <Card className="relative flex items-center justify-center bg-secondary/50 border-white/5 overflow-hidden p-0 rounded-2xl">
             <img 
               src={myprofile} 
               alt="About Ahtisham" 
-              className="w-full h-full object-cover object-center scale-100 hover:scale-105 transition-transform duration-500 ease-out" 
+              className="w-full h-auto object-cover object-center scale-100 hover:scale-105 transition-transform duration-500 ease-out" 
             />
           </Card>
         </div>
 
-        <div>
+        <div className="lg:col-span-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
           <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
             <p>

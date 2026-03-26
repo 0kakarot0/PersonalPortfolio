@@ -42,13 +42,12 @@ function Home() {
         </div>
 
         {/* Profile Image */}
-        <div className="flex-1 w-full max-w-md lg:max-w-lg xl:max-w-xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <div className="relative aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-            {/* The image styling uses object-cover to make sure it fills the container elegantly */}
+        <div className="flex-1 w-full max-w-sm lg:max-w-md animate-fade-in mx-auto lg:mx-0" style={{ animationDelay: "0.2s" }}>
+          <div className="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl group">
             <img 
               src={myprofile} 
               alt="Ahtisham Profile" 
-              className="w-full h-full object-cover object-center scale-100 hover:scale-105 transition-transform duration-500 ease-out" 
+              className="w-full h-auto object-contain object-top scale-100 group-hover:scale-105 transition-transform duration-500 ease-out" 
             />
             {/* Soft gradient overlay at bottom for depth */}
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent pointer-events-none" />
