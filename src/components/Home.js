@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css"; // Kept to preserve any global styles it might affect externally
 import myprofile from "../assets/myproflie.jpeg";
 import { Section } from "./ui/Section";
 import { Button } from "./ui/Button";

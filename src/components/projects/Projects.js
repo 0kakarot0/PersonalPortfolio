@@ -4,7 +4,6 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { ExternalLink } from 'lucide-react';
 import { projectsData } from '../../data/projects';
-import './Project.css'; // Keep old CSS for stability just in case
 
 function Projects() {
   return (

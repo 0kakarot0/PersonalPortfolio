@@ -3,7 +3,6 @@ import { Section } from "../ui/Section";
 import { Card } from "../ui/Card";
 import { Button } from "../ui/Button";
 import { Mail, MapPin, Phone } from "lucide-react";
-import "./Contact.css"; // Preserved old CSS just in case
 
 function Contact() {
   return(
