@@ -1,5 +1,4 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 function Footer() {
   return (
@@ -19,16 +18,16 @@ function Footer() {
 
         <div className="flex items-center gap-6">
           <a href="https://www.linkedin.com/in/ahtishamilyas/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-            <Linkedin className="w-5 h-5" />
+            <i className="fa-brands fa-linkedin text-xl leading-none" />
           </a>
           <a href="https://github.com/0kakarot0" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-            <Github className="w-5 h-5" />
+            <i className="fa-brands fa-github text-xl leading-none" />
           </a>
           <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Instagram className="w-5 h-5" />
+            <i className="fa-brands fa-instagram text-xl leading-none" />
           </a>
           <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Twitter className="w-5 h-5" />
+            <i className="fa-brands fa-twitter text-xl leading-none" />
           </a>
         </div>
       </div>

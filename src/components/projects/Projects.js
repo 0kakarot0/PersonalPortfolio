@@ -2,7 +2,7 @@ import React from 'react';
 import { Section } from '../ui/Section';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { projectsData } from '../../data/projects';
 import './Project.css'; // Keep old CSS for stability just in case
 
@@ -32,7 +32,7 @@ function Projects() {
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                 <Button size="sm" variant="secondary" className="rounded-full" onClick={() => window.open(project.githubUrl, '_blank')}>
-                  <Github className="w-4 h-4" />
+                  <i className="fa-brands fa-github text-base leading-none" />
                 </Button>
                 <Button size="sm" className="rounded-full" onClick={() => window.open(project.liveUrl, '_blank')}>
                   <ExternalLink className="w-4 h-4" />
