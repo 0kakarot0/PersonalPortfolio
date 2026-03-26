@@ -24,7 +24,7 @@ function Projects() {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectsData.map((project) => (
           <Card key={project.id} className="overflow-hidden flex flex-col h-full p-0 border border-white/10 bg-secondary/50 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10 transition-all duration-300">
-            <div className={`h-48 w-full relative group overflow-hidden bg-muted`}>
+            <div className={`h-40 w-full relative group overflow-hidden bg-muted`}>
               <img 
                 src={project.image} 
                 alt={project.title} 
@@ -41,13 +41,23 @@ function Projects() {
             </div>
             
             <div className="p-6 flex-1 flex flex-col">
-              <h3 className="text-xl font-bold mb-3 text-foreground">{project.title}</h3>
-              <p className="text-muted-foreground text-sm mb-6 flex-1">
-                {project.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
+              <h3 className="text-xl font-bold mb-1 text-foreground">{project.title}</h3>
+              <p className="text-sm text-primary font-medium mb-4">{project.role}</p>
+              
+              <div className="space-y-3 mb-6 flex-1">
+                <div>
+                  <span className="text-xs font-semibold text-foreground uppercase tracking-wider block mb-1">The Problem</span>
+                  <p className="text-muted-foreground text-sm line-clamp-2">{project.problem}</p>
+                </div>
+                <div>
+                  <span className="text-xs font-semibold text-foreground uppercase tracking-wider block mb-1">The Impact</span>
+                  <p className="text-muted-foreground text-sm line-clamp-2">{project.impact}</p>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-2 pt-4 border-t border-white/5 mt-auto">
                 {project.tech.map((tag) => (
-                  <span key={tag} className="text-xs font-medium px-2.5 py-1 rounded-full bg-primary/10 text-primary border border-primary/20">
+                  <span key={tag} className="text-[10px] uppercase font-bold px-2 py-1 rounded-sm bg-accent/10 text-accent border border-accent/20">
                     {tag}
                   </span>
                 ))}
