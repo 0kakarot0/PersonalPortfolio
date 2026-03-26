@@ -9,7 +9,7 @@ const navItems = [
   { label: 'Certs', href: '#certifications' },
   { label: 'Projects', href: '#projects' },
   { label: 'Services', href: '#services' },
-  { label: 'Testimonials', href: '#testimonials' },
+  { label: 'Achievements', href: '#achievements' },
 ];
 
 function Header() {

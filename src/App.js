@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 import Home from './components/Home';
 import Background from './components/background/Background';
 import Services from './components/services/Services';
-import Testimonials from './components/testimonials/Testimonials';
+import Achievements from './components/achievements/Achievements';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Certifications from './components/certifications/Certifications';
@@ -23,7 +23,7 @@ function App() {
       <Certifications />
       <Projects />
       <Services />
-      <Testimonials />
+      <Achievements />
       <Contact />
       <Footer />
     </div>
