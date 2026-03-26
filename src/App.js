@@ -3,10 +3,10 @@ import Header from './components/header/Header';
 import Home from './components/Home';
 import Background from './components/background/Background';
 import Services from './components/services/Services';
-import Testimonials from './components/testimonials/Testimonials';
-// import About from './components/About';
+import Achievements from './components/achievements/Achievements';
+import About from './components/about/About';
 import Skills from './components/skills/Skills';
-
+import Certifications from './components/certifications/Certifications';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
@@ -18,15 +18,14 @@ function App() {
       <Header />
       <Home />
       <Background />
+      <About />
       <Skills/>
+      <Certifications />
       <Projects />
       <Services />
-      <Testimonials />
-
-      {/* <About /> */}
+      <Achievements />
       <Contact />
       <Footer />
-
     </div>
   );
 }

@@ -18,7 +18,6 @@
 }
 
 html {
-  font-size: 60%;
   overflow-x: hidden;
 }
 
@@ -84,9 +83,6 @@ body {
 }
 
 @media(max-width:1285px) {
-  html {
-      font-size: 50%;
-  }
 
   .services-container {
       padding-bottom: 7rem;

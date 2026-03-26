@@ -1,106 +1,35 @@
 import React from 'react';
-
-import "./Skills.css";
+import { Section } from '../ui/Section';
+import { Card } from '../ui/Card';
+import { skillsData } from '../../data/skills';
 
 function Skills() {
+  return (
+    <Section id="skills">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Technical Expertise <span className="text-primary">&</span> Leadership</h2>
+        <p className="text-muted-foreground max-w-2xl mx-auto">
+          A comprehensive breakdown of my testing methodologies, automation toolkit, and team management capabilities.
+        </p>
+      </div>
 
-
-    return (
-        <section class="skills" id='skills'>
-            <h2 class="heading">Skills</h2>
-            <div class="skill-list-container">
-
-                <ul class="skill-list">
-                    <li>
-                        <i class="fa-solid fa-code fa-3x"></i>
-                        <span>Programming</span>
-                    </li>
-                    <li>
-
-                        <i class="fa-brands fa-java fa-3x"></i> <span>Java</span>
-                    </li>
-                    <li>
-
-                        <i class="fa-brands fa-js fa-3x"></i> <span>Javascript</span>
-                    </li>
-
-                    <li>
-
-                        <i class="fa-brands fa-flutter fa-3x"></i><span>Flutter</span>
-                    </li>
-                    <li>
-
-                        <i class="fa-solid fa-bug fa-3x"></i><span>Bug Reporting</span>
-                    </li>
-
-                    <li>
-                        <i class="fa-solid fa-list-check fa-3x"></i>
-                        <span>Software Testing</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-robot fa-3x"></i>
-                        <span>Automation Testing</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-code fa-3x"></i>
-                        <span>Programming</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-users fa-3x"></i>
-                        <span>Team Leadership</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-chart-pie fa-3x"></i>
-                        <span>Test Strategy</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-gears fa-3x"></i>
-                        <span>Test Automation</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-bug fa-3x"></i>
-                        <span>Manual Testing</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-handshake fa-3x"></i>
-                        <span>Agile Methodologies</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-list-check fa-3x"></i>
-                        <span>Software Testing</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-robot fa-3x"></i>
-                        <span>Automation Testing</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-code fa-3x"></i>
-                        <span>Programming</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-users fa-3x"></i>
-                        <span>Team Leadership</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-chart-pie fa-3x"></i>
-                        <span>Test Strategy</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-gears fa-3x"></i>
-                        <span>Test Automation</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-bug fa-3x"></i>
-                        <span>Manual Testing</span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-handshake fa-3x"></i>
-                        <span>Agile Methodologies</span>
-                    </li>
-                </ul>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {skillsData.map((category, index) => (
+          <Card key={index} className="flex flex-col h-full bg-secondary/30 border-white/5 hover:-translate-y-1 hover:border-primary/30 transition-all duration-300">
+            <h3 className="text-xl font-bold mb-2 text-foreground">{category.category}</h3>
+            <p className="text-sm text-muted-foreground mb-6 line-clamp-2">{category.description}</p>
+            <div className="flex flex-wrap gap-2 mt-auto">
+              {category.skills.map((skill) => (
+                <span key={skill} className="text-xs font-semibold px-2.5 py-1 rounded-full bg-primary/10 text-primary border border-primary/20">
+                  {skill}
+                </span>
+              ))}
             </div>
-        </section>
-    );
+          </Card>
+        ))}
+      </div>
+    </Section>
+  );
 }
 
 export default Skills;
